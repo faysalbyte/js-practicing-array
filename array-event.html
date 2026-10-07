@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>addEventListener ও Array Practice</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f6;
+      padding: 30px;
+      color: #333;
+    }
+
+    .card {
+      background: #ffffff;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #007acc;
+      margin-top: 0;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    button, select {
+      padding: 10px 15px;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #005999;
+    }
+
+    .output-box {
+      background: #e7f3fe;
+      border-left: 5px solid #2196F3;
+      padding: 15px;
+      border-radius: 4px;
+      font-weight: bold;
+      min-height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>addEventListener দিয়ে Array মেথডের প্র্যাকটিস</h2>
+    <p>নিচের বাটন বা সিলেক্ট বক্সে ক্লিক করে ইভেন্ট ট্র্রিগার করুন:</p>
+
+    <div class="controls">
+      <!-- ১. ক্লিক ইভেন্টের বাটন -->
+      <button id="showBtn">সব ফল দেখুন (join)</button>
+      
+      <!-- ২. ফিল্টার করার বাটন -->
+      <button id="filterBtn">‘আম’ ফিল্টার করুন (filter)</button>
+
+      <!-- ৩. চেঞ্জ ইভেন্টের জন্য ড্রপডাউন -->
+      <select id="fruitSelect">
+        <option value="">একটি ফল বাছুন...</option>
+      </select>
+    </div>
+
+    <div class="output-box" id="displayOutput">এখানে আউটপুট দেখাবে...</div>
+  </div>
+
+  <script>
+   
+  </script>
+
+</body>
+</html>
