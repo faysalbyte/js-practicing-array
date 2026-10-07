@@ -1,1 +1,95 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Array ডেমো টিউটোরিয়াল</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f6;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #007acc;
+    }
+
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-size: 14px;
+    }
+
+    .output-box {
+      background: #e7f3fe;
+      border-left: 5px solid #2196F3;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>JavaScript এ Array লেখার বিভিন্ন উপায়</h1>
+
+  <!-- ১. Array Literal -->
+  <div class="card">
+    <h2>১. Array Literal (সবচেয়ে সহজ ও জনপ্রিয় পদ্ধতি)</h2>
+    <p>থার্ড ব্র্যাকেট <code>[]</code> ব্যবহার করে এরে তৈরি করা হয়।</p>
+    <pre>const fruits = ['আম', 'কলা', 'লিচু'];</pre>
+    <div class="output-box" id="output1"></div>
+  </div>
+
+  <!-- ২. Array Constructor -->
+  <div class="card">
+    <h2>২. Array Constructor (new Array Keyword)</h2>
+    <p><code>new Array()</code> ব্যবহার করে এরে তৈরি করা যায়।</p>
+    <pre>const colors = new Array('লাল', 'সবুজ', 'নীল');</pre>
+    <div class="output-box" id="output2"></div>
+  </div>
+
+  <!-- ৩. Array.of() Method -->
+  <div class="card">
+    <h2>৩. Array.of() Method</h2>
+    <p>যেকোনো সংখ্যক ভ্যালু নিয়ে নতুন এরে তৈরি করে।</p>
+    <pre>const numbers = Array.of(10, 20, 30, 40);</pre>
+    <div class="output-box" id="output3"></div>
+  </div>
+
+  <!-- ৪. Array.from() Method -->
+  <div class="card">
+    <h2>৪. Array.from() Method</h2>
+    <p>কোনো স্ট্রিং বা ইটারেবল অবজেক্ট থেকে এরে তৈরি করে।</p>
+    <pre>const chars = Array.from('JS-Tutorial');</pre>
+    <div class="output-box" id="output4"></div>
+  </div>
+
+  <script>
+    
+  </script>
+
+</body>
+</html>
